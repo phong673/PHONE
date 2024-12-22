@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <!-- Favicons Icon -->
     
-    <title>Thoi trang - @yield('title')</title>
+    <title>NHÓM 7</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Mobile Specific -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
