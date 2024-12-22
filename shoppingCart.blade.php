@@ -50,7 +50,6 @@
                                                             <span>Tiếp tục mua sắm</span>
                                                         </button>
                                                         <span id="delButtonall">
-
                                                         </span>
                                                     </td>
                                                 </tr>
@@ -77,8 +76,7 @@
                                             @endif
 
                                             <button value="Apply Coupon"
-                                                class="button coupon dscoupon" {{ Session::get('coupon') ? 'disabled' : '' }} title="Apply Coupon" type="submit"><span>Apply
-                                                    Coupon</span></button>
+                                                class="button coupon dscoupon" {{ Session::get('coupon') ? 'disabled' : '' }} title="Apply Coupon" type="submit"><span>Áp mã giảm giá</span></button>
                                         </form>
                                     </div>
                                 </div>
@@ -112,9 +110,7 @@
                                                 </button>
                                             </li>
 
-                                            <li><a title="Checkout with Multiple Addresses"
-                                            href="multiple_addresses.html">Thanh toán bằng nhiều địa chỉ</a></li>
-
+                                            
                                         </ul>
                                     </div>
                                     <!--inner-->
@@ -238,7 +234,7 @@
                                 </div>
                             </div>
                         </div>
-                    </article>
+                    </arti>
                     <!--	///*///======    End article  ========= //*/// -->
                 </div>
 
